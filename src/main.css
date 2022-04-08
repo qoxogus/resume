@@ -5,7 +5,7 @@
 }
 
 ::selection {
-  background: #00d2ff;
+  background: #CC99FF;
 }
 
 html,
@@ -39,8 +39,8 @@ body:before {
   content: "";
   width: 100%;
   height: 10px;
-  background: #00d2ff;
-  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: #B266FF;
+  background: linear-gradient(to right, #6600CC, #B266FF);
 }
 
 section {
@@ -54,7 +54,7 @@ p {
 }
 
 a {
-  color: #3a7bd5;
+  color: #B266FF;
   transition: color 0.3s ease;
 }
 
@@ -117,7 +117,7 @@ ul > li:before {
   left: 0;
   display: inline-block;
   content: "•";
-  color: #3a7bd5;
+  color: #B266FF;
 }
 
 .container {
@@ -127,7 +127,7 @@ ul > li:before {
 }
 
 .period-mark {
-  color: #3a7bd5;
+  color: #B266FF;
 }
 
 .big-paragraph {
