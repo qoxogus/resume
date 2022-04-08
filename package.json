@@ -4,6 +4,10 @@
   "repository": "https://github.com/qoxogus/resume.git",
   "author": "qoxogus <qoxogus0809@gmail.com>",
   "license": "MIT",
+
+  
+  "homepage" : "https://qoxogus.github.io/resume/",
+  
   "scripts": {
     "start": "parcel src/index.html",
     "build": "rm -rf docs; parcel build -d docs --public-url /resume src/index.html"
@@ -15,6 +19,7 @@
   "devDependencies": {
     "autoprefixer": "^9.1.5",
     "cssnano": "^4.1.4",
+    "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.12.5",
     "postcss-modules": "^1.4.1"
   }
