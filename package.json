@@ -6,11 +6,11 @@
   "license": "MIT",
 
   
-  "homepage" : "https://qoxogus.github.io/resume/",
+  "homepage" : "https://.github.io/resume/",
   
-  "script": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "rm -rf docs; parcel build -d docs --public-url /resume index.html"
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
