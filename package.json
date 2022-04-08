@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.0.0",
   "repository": "https://github.com/qoxogus/resume.git",
-  "author": "HyunSeob <mail@hyunseob.me>",
+  "author": "qoxogus <qoxogus0809@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
