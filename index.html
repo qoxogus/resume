@@ -53,7 +53,7 @@
               </span>
               <h5>Description<span class="period-mark">.</span></h5>
               <p>
-                앱 다운로드 450,000+, MAU 100,000+<br />
+                앱 다운로드 500,000+, MAU 100,000+<br />
                 <a 
                 href="https://home.zuicy.ai"
                 rel="noopener noreferrer"
@@ -64,13 +64,67 @@
               </p>
               <h5>What did I do<span class="period-mark">.</span></h5>
               <ul>
-                <li>작성 필요</li><br />
-                <li>작성 필요</li><br />
-                <li>작성 필요</li><br />
+                <li>Junit5, Mockito를 활용한 테스트 코드 작성 환경 구축 및 테스트 코드 작성</li><br />
+                <li>
+                  배너 및 추천구좌 기능 개발<br />
+                  추천구좌와 내부 아이템에 대해 별도로 페이징할 수 있는 방안을 모색하고, API를 분리하는 설계를 통해 해결하였습니다.
+                </li><br />
+                <li>
+                  소셜 플랫폼 로그인 및 회원 관리 기능 개발<br />
+                  여러 소셜 플랫폼을 한 계정에 연동, 데이터상으로 같은 유저로 인지 될 시 기존 계정으로 로그인 또는 계정 연동,<br />
+                  유저들이 간편하며, 빠르고 안정적이게 가입 및 로그인 할 수 있는 시스템을 설계하고, 구축하였습니다.<br />
+                  해당 기능으로 인해 400,000+ 유저들의 회원가입이 간편하며, 빠르고 안정적이게 처리 할 수 있었습니다.
+                </li><br />
+                <li>
+                  콘텐츠 상세 정보 관리 고도화<br />
+                  콘텐츠의 좋아요 수, 댓글 수 등을 서버 자체 캐시에서 Redis로 이관하여 여러대의 서버를 운용하더라도, 집계된 데이터에 대해 서버들간의 데이터가 동기화 될 수 있도록 설계하고, 구축하였습니다.
+                </li><br />
+                <li>
+                  유저별 개인화된 콘텐츠 추천 시스템 구축<br />
+                  콘텐츠 추천에 필요한 유저 콘텐츠 관련 데이터 수집,<br />
+                  수집한 데이터에 대해 통계 데이터를 매일 산출하여 유저에게 개인화된 콘텐츠 추천을 할 수 있는 알고리즘을 설계하고, 구축하였습니다.<br />
+                </li><br />
+                <li>
+                  유료 콘텐츠 기능 개발<br />
+                  분리되어 있는 유료캐시와 무료캐시, 캐시 사용 우선순위에 대해 캐시가 올바르게 소모될 수 있는 코어 알고리즘을 설계하고 구축하였습니다.<br />
+                  유료 콘텐츠 접근 권한 관리 체계를 분리하여, 관리가 용이하도록 설계하고 구축하였습니다.
+                </li><br />
                 <li>작성 필요</li><br />
               </ul>
               <h5>Tech Stack<span class="period-mark">.</span></h5>
-              <p>Java(Open-JDK-11), SpringBoot, GraphQL, Spring Security, Gradle, JPA, Querydsl, RDS(MariaDB), Junit5, Mockito, Jacoco, AWS, Jenkins, Nginx, SonarQube, Vault</p>
+              <p>Java(Open-JDK-11), SpringBoot, GraphQL, Spring Security, Gradle, JPA, Querydsl, RDS(MariaDB), Redis, Junit5, Mockito, Jacoco, AWS, Jenkins, Nginx, SonarQube, Vault</p>
+            </div>
+            <div class="project">
+              <h4>
+                ZUICY 어드민 백엔드 개발<span class="period-mark">.</span>
+              </h4>
+              <span class="time">
+                <time datetime="2022-09">2022. 09</time> - 현재
+              </span>
+              <h5>Description<span class="period-mark">.</span></h5>
+              <p>
+                크리에이터가 만든 인터렉티브 영상 콘텐츠와 AI Agent를<br />
+                배포 및 관리하고 서비스 운영에 전반적인 부분을 관리하는 서비스를 만들고 유지보수 하고 있습니다.
+              </p>
+              <h5>What did I do<span class="period-mark">.</span></h5>
+              <ul>
+                <li>Junit5, Mockito를 활용한 테스트 코드 작성 환경 구축 및 테스트 코드 작성</li><br />
+                <li>
+                  인터렉티브 콘텐츠 배포 프로세스 고도화<br />
+                  콘텐츠 배포 승인자, 배포 된 콘텐츠 추천구좌 데이터에 추가, 콘텐츠 배포 유효성 검증 로직과 배포 실패 프로세스를 추가하여 콘텐츠 배포에 대한 관리가 더 용이하게 될 수 있도록 하였습니다.
+                </li><br />
+                <li>
+                  크리에이터 관리 기능 개발<br />
+                  크리에이터의 가입 신청, 반려 등의 크리에이터 가입 신청 프로세스를 관리하고,
+                  전반적인 크리에이터들의 계정을 관리할 수 있는 시스템을 설계하고, 구축하였습니다.
+                </li><br />
+                <li>
+                  캐시, 이용권 관리 및 정산 시스템 개발<br />
+                </li><br />
+                <li>작성 필요</li><br />
+              </ul>
+              <h5>Tech Stack<span class="period-mark">.</span></h5>
+              <p>Java(Open-JDK-11), SpringBoot, Spring Security, Gradle, JPA, Querydsl, RDS(MariaDB), Junit5, Mockito, Jacoco, AWS, Jenkins, Nginx, SonarQube, Vault</p>
             </div>
             <div class="project">
               <h4>
@@ -91,35 +145,16 @@
               </p>
               <h5>What did I do<span class="period-mark">.</span></h5>
               <ul>
-                <li>작성 필요</li><br />
+                <li>
+                  크리에이터 관리 기능 개발<br />
+                  크리에이터의 전반적인 가입 신청부터 탈퇴까지의 프로세스를 설계하고 구축하였습니다.
+                </li><br />
                 <li>작성 필요</li><br />
                 <li>작성 필요</li><br />
                 <li>작성 필요</li><br />
               </ul>
               <h5>Tech Stack<span class="period-mark">.</span></h5>
               <p>Kotlin(Open-JDK-11), SpringBoot, GraphQL, WebClient, Spring Security, Gradle, JPA, Querydsl, RDS(MariaDB), Junit5, Jacoco, AWS, Jenkins, Nginx, SonarQube, Vault</p>
-            </div>
-            <div class="project">
-              <h4>
-                ZUICY 어드민 백엔드 개발<span class="period-mark">.</span>
-              </h4>
-              <span class="time">
-                <time datetime="2022-09">2022. 09</time> - 현재
-              </span>
-              <h5>Description<span class="period-mark">.</span></h5>
-              <p>
-                크리에이터가 만든 인터렉티브 영상 콘텐츠와 AI Agent를<br />
-                배포 및 관리하고 서비스 운영에 전반적인 부분을 관리하는 서비스를 만들고 유지보수 하고 있습니다.
-              </p>
-              <h5>What did I do<span class="period-mark">.</span></h5>
-              <ul>
-                <li>작성 필요</li><br />
-                <li>작성 필요</li><br />
-                <li>작성 필요</li><br />
-                <li>작성 필요</li><br />
-              </ul>
-              <h5>Tech Stack<span class="period-mark">.</span></h5>
-              <p>Java(Open-JDK-11), SpringBoot, Spring Security, Gradle, JPA, Querydsl, RDS(MariaDB), Junit5, Mockito, Jacoco, AWS, Jenkins, Nginx, SonarQube, Vault</p>
             </div>
             <div class="project">
               <h4>
@@ -135,7 +170,14 @@
               </p>
               <h5>What did I do<span class="period-mark">.</span></h5>
               <ul>
-                <li>작성 필요</li><br />
+                <li>
+                  결제 및 캐시 지급 시스템 설계<br />
+                  구글/애플 스토어를 통한 인앱결제(IAP)와 캐시 지급에 대한 트랜잭션을 하나로 묶기 위한 방안을 모색하고,<br />
+                  추후 이벤트 등을 통해 무료로 지급될 수 있는 캐시 등에 대해<br /> 
+                  확장될 수 있도록 유연하게 설계를 진행하였습니다.<br />
+                  전반적인 인앱결제 시스템을 이해하고, 영수증 소비처리와<br />
+                  캐시 지급에 대해 누락이 발생하지 않도록 설계하였습니다.
+                </li><br />
                 <li>작성 필요</li><br />
                 <li>작성 필요</li><br />
                 <li>작성 필요</li><br />
@@ -178,7 +220,14 @@
               </p>
               <h5>What did I do<span class="period-mark">.</span></h5>
               <ul>
-                <li>작성 필요</li><br />
+                <li>
+                  유저별 개인화된 콘텐츠 추천 통계 시스템 구축<br />
+                  점진적으로 늘어나는<br />
+                  유저 콘텐츠 관련 수집 데이터(170,000,000+)<br />
+                  통계 실행 시간이 크게 차이나지 않도록<br />
+                  데이터 Relay 방식, 분산 처리 등<br />
+                  끊임없는 시도를 통해 꾸준하게 개선하고 있습니다.
+                </li><br />
                 <li>작성 필요</li><br />
                 <li>작성 필요</li><br />
                 <li>작성 필요</li><br />
