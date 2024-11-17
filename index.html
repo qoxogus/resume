@@ -296,8 +296,11 @@
               <ul>
                 <li>Redis 데이터 구조 설계 및 Redis Cluster 모니터링</li><br />
                 <li>
-                  비동기 non-blocking 형태의 채팅 응답 관련<br />
-                  polling API 설계 및 구축
+                  비동기 non-blocking 형태의 polling API 설계 및 구축<br />
+                  기존에는 polling 시 무조건 RDB를 조회하는 구조였지만,<br />
+                  클라이언트 polling 전략을 확립하고, Redis로 변경하여<br />
+                  성능을 5%(300ms -> 50ms)개선하고<br />
+                  DB 부하를 분산시켰습니다.
                 </li><br />
                 <li>시나리오 설계 및 nGrinder를 활용한 시나리오 부하테스트 진행</li><br />
               </ul>
