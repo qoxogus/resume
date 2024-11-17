@@ -6,7 +6,7 @@
   "license": "MIT",
 
   
-  "homepage" : "https://.github.io/resume/",
+  "homepage" : "https://.github.io/resume",
   
   "scripts": {
     "start": "parcel src/index.html",
